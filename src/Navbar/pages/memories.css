@@ -8,19 +8,34 @@
 
 #header1 {
     text-align: center;
-    width: auto;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     height: 70%;
     overflow: auto;
     background-color: rgb(201, 196, 191);
     border-radius: 20px;
 }
 
-#message {
+#message1 {
     background-color: antiquewhite;
     border: 2px solid azure;
     border-radius: 30px;
     padding: 2%;
     margin-left: 2%;
     margin-right: 2%;
+    font-weight: 400;
+    font-size: x-large;
     overflow: auto;
+    margin-bottom: 2%;
+}
+
+#collage {
+    background-color: transparent;
+    border: 2px solid azure;
+    width: 95%;
+    margin-bottom: 5%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    
 }

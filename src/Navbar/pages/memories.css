@@ -1,0 +1,23 @@
+.wrapper {
+    opacity: 0.95;
+    display: grid;
+    gap: 10px;
+    grid-auto-rows: minmax(200px, auto);
+}
+
+#header {
+    width: auto;
+    height: auto;
+    background-color: rgb(201, 196, 191);
+    border-radius: 20px;
+}
+
+#message {
+    background-color: antiquewhite;
+    border: 2px solid azure;
+    border-radius: 30px;
+    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    overflow: auto;
+}

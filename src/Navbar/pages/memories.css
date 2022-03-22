@@ -3,11 +3,14 @@
     display: grid;
     gap: 10px;
     grid-auto-rows: minmax(200px, auto);
+    overflow: hidden;
 }
 
-#header {
+#header1 {
+    text-align: center;
     width: auto;
-    height: auto;
+    height: 70%;
+    overflow: auto;
     background-color: rgb(201, 196, 191);
     border-radius: 20px;
 }
